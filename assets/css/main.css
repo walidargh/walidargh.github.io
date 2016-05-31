@@ -1938,6 +1938,19 @@
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
+		.item ul {
+			text-align: left;
+			font-size: 0.9em;
+			padding: 1em 1.5em;
+			list-style: circle;
+			margin: 0;
+		}
+
+		.item li {
+			padding: 0;
+			margin: 0;
+			line-height: 1.5em;
+		}
 
 		.item header {
 			background: #fff;
@@ -1948,6 +1961,8 @@
 
 			.item header h3 {
 				font-size: 1em;
+				line-height: 1.2em;
+				padding: 0.2em;
 			}
 
 /* Icons */
